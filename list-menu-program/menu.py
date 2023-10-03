@@ -1,4 +1,5 @@
-def print_menu():
+l = []
+while True:
     print('''
     Menu:
     1. Append an element
@@ -13,10 +14,6 @@ def print_menu():
     0. quit
     
     ''')
-
-l = []
-while True:
-    print_menu()
     choice = int(input('enter your choice: '))
 
     if choice == 1:
