@@ -1,10 +1,9 @@
-a = input('enter a number or a string: ')
+a = input('enter a number or string: ')
 r = ''
 
 for i in a:
     r = i + r
-
-if a == r:
-    print(a + ' is a palindrome')
-else:
-    print(a + ' is not a palindrome')
+if r == a:
+    print(f'{a} is a palindrome')
+else: 
+    print(f'{a} is not a palindrome')

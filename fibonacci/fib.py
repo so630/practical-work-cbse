@@ -4,7 +4,7 @@ pre1 = 1
 fib = False
 
 if n == 0 or n == 1:
-    print("%i %f is in fibonacci series" %(n))
+    print("%i is in fibonacci series" %(n))
     fib = True
     pre1 = n+1
 
@@ -14,7 +14,7 @@ while pre1 <= n:
     pre = t
 
     if pre1 == n:
-        print("%i %f is in fibonacci series" %(n))
+        print("%i is in fibonacci series" %(n))
         fib = True
 
 if not fib:
